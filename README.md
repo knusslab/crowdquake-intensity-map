@@ -17,9 +17,9 @@ This project written in Python 3.9 version. We recommend to use Anaconda 3 (Pyth
 # Resources
 ## Example
 To execute code in 'draw_pga_map.ipynb', you need to unzip file './dataset/20221029_082749_kst.zip' in './dataset' directory. This file contains seismic data of Goesan Earthquake (M4.1, 2022-10-29T08:27:49+09:00).
-### Code
-We provide the notebook file 'draw_pga_map.ipynb' that contains the code for generate Seismic Intensity Map.
 
+## Code
+We provide the notebook file 'draw_pga_map.ipynb' that contains the code for generate Seismic Intensity Map.
 
 ## LCIS Network metadata
 We provide metadata of LCIS network that needed for generate Seismic Intensity Map. Please see the metadata in 'resources' directory.
