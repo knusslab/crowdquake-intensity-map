@@ -6,13 +6,21 @@ Here we provide the implementation of - used in our paper.
 This project written in Python 3.9 version. We recommend to use Anaconda 3 (Python 3.9) for this project. Please see the dependencies below.
 ## Python environments
 - [Anaconda 3 (Python 3.9)](https://www.anaconda.com/)
-## Dependencies
-- [h3-py](https://github.com/uber/h3-py)
-- [numpy](https://numpy.org/)
-- [scipy](https://www.scipy.org/)
-- [pandas](https://pandas.pydata.org/)
-- [obspy](https://docs.obspy.org/)
-- [matplotlib](https://matplotlib.org/)
+## Installation
+After you install Anaconda 3, please create a new environment and install the dependencies.
+```bash
+$ conda create -n crowdquake-intensity-map python=3.9
+$ conda activate crowdquake-intensity-map
+$ conda install -c conda-forge jupyterlab  # Recommended for interactive notebook
+$ conda install -y -c conda-forge h3-py numpy scipy pandas geopandas obspy shapely matplotlib cartopy openpyxl
+```
+## Trouble shooting
+### Error: 'Unknown format for file %s' in obspy.read
+If you get the error message 'Unknown format for file %s' in obspy.read, please install 'obspy' with pip.
+```bash
+$ pip install obspy
+```
+and please following this [link](https://github.com/obspy/obspy/wiki/Installation-via-Anaconda) to address further issues.
 
 # Resources
 ## Example
