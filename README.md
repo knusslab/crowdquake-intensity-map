@@ -7,6 +7,7 @@ This project written in Python 3.9 version. We recommend to use Anaconda 3 (Pyth
 ## Python environments
 - [Anaconda 3 (Python 3.9)](https://www.anaconda.com/)
 ## Dependencies
+- [h3-py] (https://github.com/uber/h3-py)
 - [numpy](https://numpy.org/)
 - [scipy](https://www.scipy.org/)
 - [pandas](https://pandas.pydata.org/)
